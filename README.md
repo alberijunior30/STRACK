@@ -15,7 +15,13 @@ Antes de começar, certifique-se de ter os seguintes itens instalados na sua má
 
 ###  Crie e ative um ambiente virtual:
 ```bash
+Desative a política de segurança:
+Set-ExecutionPolicy RemoteSigned
+
+Crie o Ambiente Virtual:
 python -m venv venv
+
+Ative o Ambiente Virtual:
 windows:
 .\venv\Scripts\activate
 
