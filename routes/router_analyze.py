@@ -7,7 +7,7 @@ router = APIRouter()
 upload = Path("save_directory")
 upload.mkdir(exist_ok=True)
 
-@router.post("/", description="Enviar Imagem")
+@router.post("/processing_action", description="Enviar Imagem")
 async def analyze(
         files: UploadFile = File(...),
         processing_action: str = Query(..., description="Ação a ser realizada (ex:size, resize, hsv  )")

@@ -5,7 +5,7 @@ from routes import router_analyze
 app = FastAPI(title="STRACK")
 
 @app.get("/")
-def read_root():
+def API_ON():
     return {"status": "OK", "version": "1.0"}
 
 app.include_router(router_health.router, prefix="/health")
