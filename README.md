@@ -14,21 +14,24 @@ Antes de começar, certifique-se de ter os seguintes itens instalados na sua má
 
 
 ###  Crie e ative um ambiente virtual:
-```bash
 Desative a política de segurança:
+```bash
 Set-ExecutionPolicy RemoteSigned
+```
 
 Crie o Ambiente Virtual:
+```bash
 python -m venv venv
+```
 
 Ative o Ambiente Virtual:
 windows:
+```bash
 .\venv\Scripts\activate
-
+```
 linux/mac:
+```bash
 source venv/Scripts/activate  
-
-
 ```
 ### Instale as dependências:
 ```bash
