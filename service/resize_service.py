@@ -1,0 +1,2 @@
+def resize():
+    return "resize"
